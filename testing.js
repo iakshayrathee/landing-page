@@ -10,3 +10,8 @@ function isPalindrome(str) {
   return cleanedStr === reversedStr;
 }
 console.log(isPalindrome(string));
+function countVowels(str) {
+  const vowels = str.match(/[aeiou]/gi);
+  return vowels ? vowels.length : 0;
+}
+console.log(countVowels(string));
